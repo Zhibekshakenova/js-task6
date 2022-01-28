@@ -26,4 +26,18 @@ image.style.height = "300px";
 image.style.borderRadius = "15px";
 image.style.marginLeft = "20px";
 image.style.marginTop = "20px";
+ // title
 
+
+const title = document.createElement ("a");
+title.href = "#";
+wrapper.append(title);
+title.innerText = "Equilibrium #3429";
+title.style.fontFamily = '"Roboto Condensed", sans-serif';
+title.style.fontSize = "30px";
+title.style.color = "#fff";
+title.style.marginTop = "20px";
+title.style.marginLeft = "20px";
+title.style.fontWeight = "600";
+title.style.display = "block";
+title.style.textDecoration = "none";
