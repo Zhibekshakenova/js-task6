@@ -76,3 +76,29 @@ rightItem.appendChild(icon);
 icon.style.top = "557px";
 icon.style.left = "510px";
 icon.style.position = "absolute";
+
+//li
+const leftItem = document.createElement("li");
+rightPart.append(leftItem);
+leftItem.innerText = "3 days left";
+leftItem.style.fontSize = "20px";
+leftItem.style.fontFamily = '"Roboto Condensed", sans-serif';
+leftItem.style.fontWeight = "400";
+leftItem.style.color = "hsl(217, 31%, 37%)";
+'"Roboto Condensed", sans-serif';
+leftItem.style.marginRight = "50px";
+//leftItem.style.marginBottom = "55px";
+
+const icon2 = document.createElement("img");
+icon2.setAttribute("src", "images/icon-clock.svg");
+leftItem.append(icon2);
+icon2.style.position = "absolute";
+icon2.style.top = "560px";
+icon2.style.left = "700px";
+
+const footerLine = document.createElement("hr");
+wrapper.append(footerLine);
+footerLine.style.width = "300px";
+footerLine.style.border = ".3px solid hsl(217, 335%, 40%) ";
+footerLine.style.marginTop = "25px";
+
