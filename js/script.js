@@ -26,8 +26,8 @@ image.style.height = "300px";
 image.style.borderRadius = "15px";
 image.style.marginLeft = "20px";
 image.style.marginTop = "20px";
- // title
 
+ // title
 
 const title = document.createElement ("a");
 title.href = "#";
@@ -36,8 +36,18 @@ title.innerText = "Equilibrium #3429";
 title.style.fontFamily = '"Roboto Condensed", sans-serif';
 title.style.fontSize = "30px";
 title.style.color = "#fff";
-title.style.marginTop = "20px";
+title.style.marginTop = "15px";
 title.style.marginLeft = "20px";
 title.style.fontWeight = "600";
 title.style.display = "block";
 title.style.textDecoration = "none";
+
+ // subtitle
+
+ const subtitle = document.createElement("p");
+ wrapper.append(subtitle);
+ subtitle.innerText = "Our Equilibrium collection promotes balance and calm";
+ subtitle.style.color = "hsl(217, 31%, 37%)";
+ subtitle.style.fontFamily = '"Roboto Condensed", sans-serif';
+ subtitle.style.fontSize = "20px";
+ 
