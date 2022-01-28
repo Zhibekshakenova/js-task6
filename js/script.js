@@ -50,4 +50,29 @@ title.style.textDecoration = "none";
  subtitle.style.color = "hsl(217, 31%, 37%)";
  subtitle.style.fontFamily = '"Roboto Condensed", sans-serif';
  subtitle.style.fontSize = "20px";
- 
+
+ //ul
+
+ const rightPart = document.createElement("ul");
+ wrapper.appendChild(rightPart);
+ rightPart.className = "rightPart";
+ rightPart.style.listStyle = "none";
+ rightPart.style.display = "flex";
+ rightPart.style.justifyContent = "space-between";
+
+ //li
+const rightItem = document.createElement("li")
+rightPart.append(rightItem);
+rightItem.innerText = "0.041ETH";
+rightItem.style.fontSize = "16px";
+rightItem.style.fontFamily = '"Roboto Condensed", sans-serif';
+rightItem.style.color = "hsl(177, 100%, 37%)";
+rightItem.style.fontWeight = "600";
+rightItem.style.marginLeft = "5px";
+
+const icon = document.createElement("img");
+icon.setAttribute("src", "images/icon-ethereum.svg");
+rightItem.appendChild(icon);
+icon.style.top = "557px";
+icon.style.left = "510px";
+icon.style.position = "absolute";
