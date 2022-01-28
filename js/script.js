@@ -102,3 +102,35 @@ footerLine.style.width = "300px";
 footerLine.style.border = ".3px solid hsl(217, 335%, 40%) ";
 footerLine.style.marginTop = "25px";
 
+// avatar
+
+const avatar = document.createElement("img");
+wrapper.append(avatar);
+avatar.setAttribute("src", " images/image-avatar.png");
+avatar.style.width = "35px";
+avatar.style.border = "1.5px solid #fff";
+avatar.style.borderRadius = "50%";
+avatar.style.marginLeft = "25px";
+avatar.style.marginTop = "10px";
+
+const footerSpan = document.createElement("span");
+wrapper.append(footerSpan);
+footerSpan.innerText = "Creation of";
+footerSpan.style.color = "hsl(215, 32%, 40%)";
+footerSpan.style.fontWeigth = "bold";
+footerSpan.style.fontSize = "18px";
+footerSpan.style.fontFamily = '"Roboto Condensed", sans-serif';
+footerSpan.style.marginLeft = "75px";
+footerSpan.style.display = "block";
+footerSpan.style.marginTop = "-30px";
+
+const jules= document.createElement("strong");
+footerSpan.appendChild(jules);
+jules.innerText = "Jules Wyvern";
+jules.style.marginLeft = "8px";
+jules.style.color = "white";
+jules.style.fontWeight = "500";
+
+
+
+alert("Я оцениваю свою работу на 90 баллов");
